@@ -16,7 +16,7 @@ const NavbarVertical: React.FC<NavbarVerticalProps> = ({ title, children }) => {
       <Content>
         <h3>{title}</h3>
 
-        <hr />
+        {children && <hr />}
 
         {children}
       </Content>

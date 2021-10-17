@@ -5,7 +5,7 @@ export const Content = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 70px 70px;
-  gap: 30px;
+  gap: 10px;
 `;
 
 export const ButtonLink = styled(Link)`
@@ -21,12 +21,14 @@ export const ButtonLink = styled(Link)`
   text-decoration: none;
   background: #fff;
   color: ${({ theme }) => theme.colors.primary3};
+  padding: 0 15px;
+  border: 2px solid #fff;
 
   :hover {
     border: 2px solid ${({ theme }) => theme.colors.primary3};
   }
 
   img {
-    height: 50px;
+    width: 100%;
   }
 `;

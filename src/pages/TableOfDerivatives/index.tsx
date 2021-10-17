@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Img1 from '../../assets/derivada1.png';
-import Img2 from '../../assets/derivada2.png';
+import Img2 from '../../assets/derivada3.png';
 
 import NavbarVertical from '../../components/NavbarVertical';
 import ContainerDefault from '../../components/ContainerDefault';
@@ -11,7 +11,7 @@ import { Content, ButtonLink } from './styles';
 const TableOfDerivatives: React.FC = () => {
   return (
     <ContainerDefault>
-      <NavbarVertical title="Teste" />
+      <NavbarVertical title="Tabela de derivadas" />
 
       <Content>
         <ButtonLink color="play" to="/derivada-1">
