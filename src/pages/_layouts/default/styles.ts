@@ -9,7 +9,7 @@ export const Container = styled.div`
     height: 100%;
     width: 100%;
     max-width: ${({ theme }) => theme.breakpoints.largeWidth};
-    margin: 0 auto;
+    margin: 30px auto;
     padding: 0 20px;
     overflow-y: hidden;
   }

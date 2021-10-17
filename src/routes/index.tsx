@@ -5,10 +5,16 @@ import Route from './Route';
 
 import Error404 from '../pages/Error404';
 import Dashboard from '../pages/Dashboard';
+import TableOfDerivatives from '../pages/TableOfDerivatives';
+import Derivative1 from '../pages/Derivatives/Derivative1';
+import Derivative2 from '../pages/Derivatives/Derivative2';
 
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Dashboard} />
+    <Route path="/tabela-de-derivadas" exact component={TableOfDerivatives} />
+    <Route path="/derivada-1" exact component={Derivative1} />
+    <Route path="/derivada-2" exact component={Derivative2} />
     <Route path="*" component={Error404} />
   </Switch>
 );

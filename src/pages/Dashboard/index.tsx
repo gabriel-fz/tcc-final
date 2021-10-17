@@ -18,7 +18,7 @@ const Dashboard: React.FC = () => {
           Minhas conquistas
         </ButtonLink>
 
-        <ButtonLink color="play" to="/instrucoes">
+        <ButtonLink color="play" to="/tabela-de-derivadas">
           Tabela de derivadas
         </ButtonLink>
       </Content>
