@@ -4,12 +4,13 @@ import Img1 from '../../assets/derivada1.png';
 import Img2 from '../../assets/derivada2.png';
 
 import NavbarVertical from '../../components/NavbarVertical';
+import ContainerDefault from '../../components/ContainerDefault';
 
-import { Container, Content, ButtonLink } from './styles';
+import { Content, ButtonLink } from './styles';
 
 const TableOfDerivatives: React.FC = () => {
   return (
-    <Container>
+    <ContainerDefault>
       <NavbarVertical title="Teste" />
 
       <Content>
@@ -21,7 +22,7 @@ const TableOfDerivatives: React.FC = () => {
           <img src={Img2} alt="formula de detivada" />
         </ButtonLink>
       </Content>
-    </Container>
+    </ContainerDefault>
   );
 };
 
