@@ -14,7 +14,7 @@ export const Container = styled.header`
     height: 100%;
     max-width: ${({ theme }) => theme.breakpoints.largeWidth};
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 15px 20px;
   }
 
   @media (max-width: ${({ theme }) =>
