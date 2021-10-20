@@ -12,4 +12,5 @@ export const colors = {
   playGradient: 'linear-gradient(to top right, #812DFF, #D32EFF)',
   normalGradient: 'linear-gradient(to top right, #1255F6, #43BFFE)',
   grayLigth: '#ececec',
+  gray: '#c4c4c4',
 };

@@ -14,7 +14,7 @@ const Dashboard: React.FC = () => {
           Exercícios
         </ButtonLink>
 
-        <ButtonLink color="play" to="/instrucoes">
+        <ButtonLink color="play" to="/minhas-conquistas">
           Minhas conquistas
         </ButtonLink>
 
