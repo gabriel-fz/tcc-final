@@ -22,7 +22,7 @@ const NavbarVertical: React.FC<NavbarVerticalProps> = ({ title, children }) => {
       </Content>
 
       <ButtonBack type="button" onClick={() => history.goBack()}>
-        <FaArrowLeft size={20} />
+        <FaArrowLeft size={15} />
         <span>Voltar</span>
       </ButtonBack>
     </Container>

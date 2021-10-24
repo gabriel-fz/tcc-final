@@ -10,7 +10,7 @@ const Dashboard: React.FC = () => {
           Revisão de derivadas
         </ButtonLink>
 
-        <ButtonLink color="play" to="/instrucoes">
+        <ButtonLink color="play" to="/exercicios">
           Exercícios
         </ButtonLink>
 

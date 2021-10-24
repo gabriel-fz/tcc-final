@@ -3,13 +3,13 @@ import React from 'react';
 import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
 
-import { Container } from './styles';
+import { Container, Content } from './styles';
 
 const Default: React.FC = ({ children }) => {
   return (
     <Container>
       <Header />
-      {children}
+      <Content>{children}</Content>
       <Footer />
     </Container>
   );

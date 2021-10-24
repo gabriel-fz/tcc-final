@@ -24,7 +24,7 @@ export const Content = styled.div`
 
   hr {
     color: #fff;
-    margin: 10px 0;
+    margin: 10px 0 20px;
   }
 `;
 

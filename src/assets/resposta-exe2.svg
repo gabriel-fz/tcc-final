@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148.707mm"
+   height="55.661156mm"
+   viewBox="0 0 148.70701 55.661156"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   sodipodi:docname="resposta-exe2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.2810466"
+     inkscape:cx="260.72432"
+     inkscape:cy="80.793314"
+     inkscape:window-width="1920"
+     inkscape:window-height="1036"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.899767,-135.38845)">
+    <g
+       id="g1079"
+       transform="translate(-11.126249,-1.0400971)">
+      <rect
+         style="fill:#ffffff;stroke:none;stroke-width:0.264583;stroke-linecap:square;stroke-linejoin:round"
+         id="rect853"
+         width="148.707"
+         height="55.661156"
+         x="33.026016"
+         y="136.42854" />
+    </g>
+    <g
+       id="g846"
+       transform="translate(-0.90985286,-1.0401)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="36.13345"
+         y="147.23096"
+         id="text2444"><tspan
+           sodipodi:role="line"
+           id="tspan2442"
+           style="stroke-width:0.264583"
+           x="36.13345"
+           y="147.23096">Derivada de 9t² = 18t</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="36.13345"
+         y="160.53299"
+         id="text16262"><tspan
+           sodipodi:role="line"
+           id="tspan16260"
+           style="stroke-width:0.264583"
+           x="36.13345"
+           y="160.53299">Derivada de -10t = -10</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="36.13345"
+         y="173.83501"
+         id="text16266"><tspan
+           sodipodi:role="line"
+           id="tspan16264"
+           style="stroke-width:0.264583"
+           x="36.13345"
+           y="173.83501">Derivada de 1 = 0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="36.13345"
+         y="187.12671"
+         id="text28588"><tspan
+           sodipodi:role="line"
+           id="tspan28586"
+           style="stroke-width:0.264583"
+           x="36.13345"
+           y="187.12671">Logo, <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+   id="tspan41914">a(t) = 18t - 10</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

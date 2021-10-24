@@ -1,13 +1,22 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { ButtonHTMLAttributes } from 'react';
 import styled, { css } from 'styled-components';
 
+type ColorType = 'play' | 'primary';
+
+type ColorVariationsType = {
+  [key in ColorType]: any;
+};
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  color: 'play';
+  color: ColorType;
 }
 
-const colorVariations = {
+const colorVariations: ColorVariationsType = {
   play: css`
     background: ${({ theme }) => theme.colors.playGradient};
+  `,
+  primary: css`
+    background: ${({ theme }) => theme.colors.primary3};
   `,
 };
 
@@ -16,11 +25,11 @@ export const Container = styled.button<ButtonProps>`
   justify-content: center;
   align-items: center;
 
-  height: 60px;
+  height: 50px;
   width: 100%;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 16px;
   color: #fff;
   border: none;
 
