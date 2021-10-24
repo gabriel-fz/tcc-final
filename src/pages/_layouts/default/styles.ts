@@ -16,6 +16,5 @@ export const Content = styled.div`
     width: 100%;
     max-width: ${({ theme }) => theme.breakpoints.largeWidth};
     margin: 0 auto;
-    padding: 0 20px;
   }
 `;

@@ -8,17 +8,28 @@ import Default from '../pages/_layouts/default';
 
 interface RouteProps extends ReactDOMRouteProps {
   component: React.ComponentType;
+  layoutType: 'default' | 'none';
 }
 
-const Route: React.FC<RouteProps> = ({ component: Component, ...rest }) => {
+const Route: React.FC<RouteProps> = ({
+  component: Component,
+  layoutType,
+  ...rest
+}) => {
   return (
     <ReactDOMRoute
       {...rest}
       render={() => {
         return (
-          <Default>
-            <Component />
-          </Default>
+          <>
+            {layoutType === 'default' ? (
+              <Default>
+                <Component />
+              </Default>
+            ) : (
+              <Component />
+            )}
+          </>
         );
       }}
     />

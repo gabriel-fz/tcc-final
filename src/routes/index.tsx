@@ -13,13 +13,38 @@ import Derivative2 from '../pages/Derivatives/Derivative2';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" exact component={Dashboard} />
-    <Route path="/tabela-de-derivadas" exact component={TableOfDerivatives} />
-    <Route path="/minhas-conquistas" exact component={MyAchievements} />
-    <Route path="/exercicios" exact component={Exercises} />
-    <Route path="/derivada-1" exact component={Derivative1} />
-    <Route path="/derivada-2" exact component={Derivative2} />
-    <Route path="*" component={Error404} />
+    <Route path="/" exact layoutType="default" component={Dashboard} />
+    <Route
+      path="/tabela-de-derivadas"
+      exact
+      layoutType="default"
+      component={TableOfDerivatives}
+    />
+    <Route
+      path="/minhas-conquistas"
+      exact
+      layoutType="default"
+      component={MyAchievements}
+    />
+    <Route
+      path="/exercicios"
+      exact
+      layoutType="default"
+      component={Exercises}
+    />
+    <Route
+      path="/derivada-1"
+      exact
+      layoutType="default"
+      component={Derivative1}
+    />
+    <Route
+      path="/derivada-2"
+      exact
+      layoutType="default"
+      component={Derivative2}
+    />
+    <Route path="*" layoutType="none" component={Error404} />
   </Switch>
 );
 

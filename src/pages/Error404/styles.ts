@@ -3,8 +3,19 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  height: 100vh;
+  width: 100%;
+  background: ${({ theme }) => theme.colors.primary1};
+`;
+
+export const Content = styled.div`
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
 
   img {
     width: 100%;
