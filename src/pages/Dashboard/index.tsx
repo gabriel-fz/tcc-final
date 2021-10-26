@@ -6,7 +6,7 @@ const Dashboard: React.FC = () => {
   return (
     <Container>
       <Content>
-        <ButtonLink color="play" to="/instrucoes">
+        <ButtonLink color="play" to="/revisao-de-derivadas">
           Revisão de derivadas
         </ButtonLink>
 

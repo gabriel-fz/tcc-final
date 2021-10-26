@@ -8,6 +8,7 @@ import Dashboard from '../pages/Dashboard';
 import TableOfDerivatives from '../pages/TableOfDerivatives';
 import MyAchievements from '../pages/MyAchievements';
 import Exercises from '../pages/Exercises';
+import DerivativeReview from '../pages/DerivativeReview';
 import Derivative1 from '../pages/Derivatives/Derivative1';
 import Derivative2 from '../pages/Derivatives/Derivative2';
 
@@ -31,6 +32,12 @@ const Routes: React.FC = () => (
       exact
       layoutType="default"
       component={Exercises}
+    />
+    <Route
+      path="/revisao-de-derivadas"
+      exact
+      layoutType="default"
+      component={DerivativeReview}
     />
     <Route
       path="/derivada-1"
