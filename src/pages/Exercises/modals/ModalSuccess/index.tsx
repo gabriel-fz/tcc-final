@@ -24,7 +24,7 @@ const ModalSuccess: React.FC<ModalProps> = ({ ...rest }) => {
             <strong>+10</strong>
           </div>
         </div>
-        <strong>70/100</strong>
+        <strong>80/100</strong>
       </Level>
 
       <p>

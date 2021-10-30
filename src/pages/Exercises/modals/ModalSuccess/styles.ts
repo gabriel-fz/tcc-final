@@ -2,7 +2,7 @@ import styled, { keyframes } from 'styled-components';
 
 const animateLevel = keyframes`
   from {
-    width: 10%;
+    width: 60%;
   }
   to {
     width: 80%;
