@@ -6,7 +6,7 @@ import Img3 from '../../assets/grafico3.svg';
 
 import Graph1 from '../../components/Graph1';
 
-import { Container } from './styles';
+import Container from '../../components/Container';
 
 const Slope: React.FC = () => {
   return (
@@ -46,8 +46,11 @@ const Slope: React.FC = () => {
 
       <p>
         Se m for variável, seriam geradas infinitas retas passando pelo ponto P,
-        tal como mostra o gráfico interativo abaixo. Nessa se observa o
-        comportamento do coeficiente angular e sua ligação com a inclinação de
+        tal como mostra o gráfico interativo abaixo.{' '}
+        <b>
+          Ao clicar nos botões que representam a variação do coeficiente angular
+        </b>{' '}
+        podemos observar o seu comportamento e sua ligação com a inclinação de
         uma reta, de modo que quanto maior for o coeficiente angular, maior será
         a inclinação de uma reta.
       </p>

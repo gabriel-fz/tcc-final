@@ -25,4 +25,18 @@ export const Content = styled.div`
   height: 100%;
   min-height: 400px;
   overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #fff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: ${({ theme }) => theme.colors.gray};
+  }
 `;

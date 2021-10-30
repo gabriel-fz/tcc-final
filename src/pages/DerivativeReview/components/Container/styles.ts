@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const ContainerDefault = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
 
   width: 100%;
 
-  h1 {
+  > h1 {
     margin-bottom: 30px;
   }
 
@@ -15,7 +15,7 @@ export const Container = styled.div`
     margin-top: 30px;
   }
 
-  strong {
+  > strong {
     margin: 25px 0 40px;
   }
 `;

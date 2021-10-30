@@ -4,6 +4,7 @@ import NavbarVertical from '../../components/NavbarVertical';
 import ContainerDefault from '../../components/ContainerDefault';
 
 import Slope from './screens/Slope';
+import AverageRate from './screens/AverageRate';
 
 import { NavItem, Content } from './styles';
 
@@ -18,7 +19,7 @@ type ContentData = {
 };
 
 const DerivativeReview: React.FC = () => {
-  const contentData: ContentData[] = [
+  const [contentData, setContentData] = useState<ContentData[]>([
     {
       key: 'content1',
       element: <Slope />,
@@ -27,12 +28,11 @@ const DerivativeReview: React.FC = () => {
     },
     {
       key: 'content2',
-      element: 'teste',
+      element: <AverageRate />,
       isActive: false,
-      title: 'Coeficiente angular de reta tangente',
+      title: 'Taxa variacional',
     },
-  ];
-
+  ]);
   const [selectedContent, setSelectedContent] = useState<ContentData>(
     contentData[0],
   );
@@ -42,6 +42,10 @@ const DerivativeReview: React.FC = () => {
 
     if (newSelectedContent) {
       setSelectedContent(newSelectedContent);
+
+      setContentData(state =>
+        state.map(item => ({ ...item, isActive: selected === item.key })),
+      );
     }
   }
 
