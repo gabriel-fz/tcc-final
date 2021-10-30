@@ -13,4 +13,6 @@ export const colors = {
   normalGradient: 'linear-gradient(to top right, #1255F6, #43BFFE)',
   grayLigth: '#ececec',
   gray: '#c4c4c4',
+  gray1: '#1a1a1a',
+  gray2: '#666666',
 };

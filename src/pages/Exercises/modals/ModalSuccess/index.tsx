@@ -2,29 +2,35 @@ import React from 'react';
 
 import Img from '../../../../assets/estrelas.svg';
 
-import Button from '../../../../components/Button';
-
 import { Modal as ModalProps } from '../../types/modal';
 
-import { Container } from './styles';
+import Default from '../_Default';
+import { Level } from './styles';
 
-const ModalSuccess: React.FC<ModalProps> = ({ closeModal, nextExercise }) => {
+const ModalSuccess: React.FC<ModalProps> = ({ ...rest }) => {
   return (
-    <Container>
+    <Default {...rest}>
       <img src={Img} alt="icone de estrelas" />
 
       <h1>Parabéns!</h1>
 
-      <h3>Você acertou a questão e conquistou mais 10 pontos!</h3>
+      <Level>
+        <div>
+          <div>
+            <div>
+              <strong>3</strong>
+            </div>
 
-      <Button type="button" color="primary" onClick={() => closeModal()}>
-        Ver resposta
-      </Button>
+            <strong>+10</strong>
+          </div>
+        </div>
+        <strong>70/100</strong>
+      </Level>
 
-      <Button type="button" color="primary" onClick={() => nextExercise()}>
-        Próximo exercício
-      </Button>
-    </Container>
+      <p>
+        Você acertou a questão e conquistou mais <b>10 pontos!</b>
+      </p>
+    </Default>
   );
 };
 
