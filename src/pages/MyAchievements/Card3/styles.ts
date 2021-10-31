@@ -39,7 +39,8 @@ export const Emblem = styled.div<EmblemProps>`
   height: 60px;
   width: 60px;
   border: 2px solid
-    ${({ isActive, theme }) => (isActive ? '#000' : theme.colors.gray)};
+    ${({ isActive, theme }) =>
+      isActive ? theme.colors.primary3 : theme.colors.gray};
   border-radius: 6px;
   padding: 5px;
   position: relative;

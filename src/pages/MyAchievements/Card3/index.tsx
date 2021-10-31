@@ -1,6 +1,8 @@
 import React from 'react';
 
-import ImgEmblem from '../../../assets/emblema.svg';
+import ImgEmblem2 from '../../../assets/emblema2.svg';
+import ImgEmblem3 from '../../../assets/emblema3.svg';
+import ImgEmblem4 from '../../../assets/emblema4.svg';
 
 import { Container, Emblem, TooltipEmblem } from './styles';
 
@@ -9,6 +11,7 @@ type EmblemType = {
   isActive: boolean;
   title: string;
   description: string;
+  image: string;
 };
 
 const Card3: React.FC = () => {
@@ -18,48 +21,57 @@ const Card3: React.FC = () => {
       title: 'Mestre em derivadas',
       description: 'Parabés por concluir a revisão de derivadas!',
       isActive: true,
+      image: ImgEmblem2,
     },
     {
       key: 2,
-      title: 'Mestre em derivadas',
-      description: 'Parabés por concluir a revisão de derivadas!',
+      title: 'Mandou bem!',
+      description: 'Parabés por acertar 3 exercícios seguidos!',
       isActive: true,
+      image: ImgEmblem4,
     },
     {
       key: 3,
-      title: 'Mestre em derivadas',
-      description: 'Parabés por concluir a revisão de derivadas!',
+      title: 'Mandou bem!',
+      description: 'Parabés por acertar 5 exercícios seguidos!',
       isActive: true,
+      image: ImgEmblem3,
     },
     {
       key: 5,
-      title: 'Mestre em derivadas',
-      description: 'Parabés por concluir a revisão de derivadas!',
+      title: 'Mandou muito bem!',
+      description: 'Parabés por acertar 10 exercícios seguidos!',
       isActive: true,
+      image: ImgEmblem2,
     },
+    //----
     {
       key: 6,
       title: 'Mestre em derivadas',
-      description: 'Conclua a revissão de derivadas para ganhar esse emblema',
+      description: 'Conclua a revisão de derivadas para conseguir esse emblema',
       isActive: false,
+      image: ImgEmblem2,
     },
     {
       key: 7,
-      title: 'Mestre em derivadas',
-      description: 'Conclua a revissão de derivadas para ganhar esse emblema',
+      title: 'Mandou bem!',
+      description: 'Acerte 3 exercícios seguidos para conseguir esse emblema',
       isActive: false,
+      image: ImgEmblem4,
     },
     {
       key: 8,
-      title: 'Mestre em derivadas',
-      description: 'Conclua a revissão de derivadas para ganhar esse emblema',
+      title: 'Mandou bem!',
+      description: 'Acerte 5 exercícios seguidos para conseguir esse emblema',
       isActive: false,
+      image: ImgEmblem3,
     },
     {
       key: 9,
-      title: 'Mestre em derivadas',
-      description: 'Conclua a revissão de derivadas para ganhar esse emblema',
+      title: 'Mandou muito bem!',
+      description: 'Acerte 10 exercícios seguidos para conseguir esse emblema',
       isActive: false,
+      image: ImgEmblem2,
     },
   ];
 
@@ -68,7 +80,7 @@ const Card3: React.FC = () => {
       <div>
         {emblems.map(emblem => (
           <Emblem isActive={emblem.isActive} key={emblem.key}>
-            <img src={ImgEmblem} alt="emblema" />
+            <img src={emblem.image} alt="emblema" />
 
             <TooltipEmblem>
               <strong>{emblem.title}</strong>
