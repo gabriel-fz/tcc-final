@@ -11,6 +11,8 @@ import Exercises from '../pages/Exercises';
 import DerivativeReview from '../pages/DerivativeReview';
 import Derivative1 from '../pages/Derivatives/Derivative1';
 import Derivative2 from '../pages/Derivatives/Derivative2';
+import Derivative3 from '../pages/Derivatives/Derivative3';
+import Derivative4 from '../pages/Derivatives/Derivative4';
 
 const Routes: React.FC = () => (
   <Switch>
@@ -50,6 +52,18 @@ const Routes: React.FC = () => (
       exact
       layoutType="default"
       component={Derivative2}
+    />
+    <Route
+      path="/derivada-3"
+      exact
+      layoutType="default"
+      component={Derivative3}
+    />
+    <Route
+      path="/derivada-4"
+      exact
+      layoutType="default"
+      component={Derivative4}
     />
     <Route path="*" layoutType="none" component={Error404} />
   </Switch>

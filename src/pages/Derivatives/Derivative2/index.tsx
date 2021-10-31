@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Img1 from '../../../assets/derivada3.png';
-import Img2 from '../../../assets/exemplo-derivada3.png';
+import Img1 from '../../../assets/derivada2.png';
+import Img2 from '../../../assets/exemplo-derivada2.png';
 
 import DefaultDerivatives from '../_Default';
 
@@ -10,8 +10,8 @@ const Derivative2: React.FC = () => {
     <DefaultDerivatives
       formulaImage={Img1}
       exampleImage={Img2}
-      formulaCurve="sin(2 * x)"
-      formulaDerivative="2 * cos(2 * x)"
+      formulaCurve="(x^2) * sin(x)"
+      formulaDerivative="(2 * x * sin(x)) + ((x^2) * cos(x))"
       domain={[-5, 5]}
     />
   );
