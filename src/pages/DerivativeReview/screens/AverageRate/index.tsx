@@ -4,6 +4,7 @@ import Img5 from '../../assets/grafico5.svg';
 import Img6 from '../../assets/grafico6.svg';
 
 import Graph2 from '../../components/Graph2';
+import Image from '../../components/Image';
 
 import Container from '../../components/Container';
 
@@ -20,7 +21,7 @@ const AverageRate: React.FC = () => {
         f(x) e f(x+Δx), como mostra a Figura 1.
       </p>
 
-      <img src={Img5} alt="gráfico" />
+      <Image src={Img5} alt="gráfico" maxWidth={450} />
       <strong>Figura 1</strong>
 
       <p>
@@ -31,7 +32,7 @@ const AverageRate: React.FC = () => {
         ponto (x, f(x)), tal como ilustrada pela Figura 2.
       </p>
 
-      <img src={Img6} alt="gráfico" />
+      <Image src={Img6} alt="gráfico" maxWidth={500} />
       <strong>Figura 2</strong>
 
       <p>

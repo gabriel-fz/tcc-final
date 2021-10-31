@@ -6,6 +6,11 @@ export const Content = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 70px 70px 70px;
   gap: 10px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.smallHeight}) {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 70px);
+  }
 `;
 
 export const ButtonLink = styled(Link)`

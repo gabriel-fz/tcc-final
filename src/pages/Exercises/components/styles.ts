@@ -70,6 +70,7 @@ export const Container = styled.div<ContainerProps>`
 export const Answers = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
   align-items: center;
 
   width: 100%;
@@ -86,6 +87,11 @@ export const ButtonAnswer = styled.button<ButtonAnswerProps>`
   border-radius: 5px;
 
   ${({ action }) => action && ButtonAnswerVariations[action]};
+
+  @media (max-width: 754px) {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
 `;
 
 export const ButtonConfirm = styled(Button)`

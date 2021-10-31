@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import Image from '../Image';
+
 import { Container } from './styles';
 
 type ImagesType = 'image1' | 'image2' | 'image3';
@@ -44,7 +46,7 @@ const GraphDefault: React.FC<GraphDefaultProps> = ({ images, options }) => {
 
   return (
     <Container>
-      <img src={imagesData[selected]} alt="grafico" />
+      <Image src={imagesData[selected]} alt="grafico" maxWidth={400} />
 
       <div>
         {optionsData.map(option => (

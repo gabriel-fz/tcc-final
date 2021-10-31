@@ -25,7 +25,7 @@ export const Container = styled.div`
     text-align: center;
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: 550px) {
     display: none;
   }
 `;

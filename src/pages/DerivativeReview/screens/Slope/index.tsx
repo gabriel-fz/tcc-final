@@ -5,6 +5,7 @@ import Img2 from '../../assets/grafico2.svg';
 import Img3 from '../../assets/grafico3.svg';
 
 import Graph1 from '../../components/Graph1';
+import Image from '../../components/Image';
 
 import Container from '../../components/Container';
 
@@ -21,7 +22,7 @@ const Slope: React.FC = () => {
         pontos de seu domínio. A Figura 1 a seguir ilustra essa variação.
       </p>
 
-      <img src={Img1} alt="gráfico" />
+      <Image src={Img1} alt="gráfico" maxWidth={600} />
       <strong>Figura 1</strong>
 
       <p>
@@ -33,7 +34,7 @@ const Slope: React.FC = () => {
         retângulo com hipotenusa segmento de reta P1P2 .
       </p>
 
-      <img src={Img2} alt="gráfico" />
+      <Image src={Img2} alt="gráfico" maxWidth={415} />
       <strong>Figura 2</strong>
 
       <p>
@@ -41,7 +42,7 @@ const Slope: React.FC = () => {
         coeficiente angular m da forma: L: (P, m), como ilustra a Figura 3.
       </p>
 
-      <img src={Img3} alt="gráfico" />
+      <Image src={Img3} alt="gráfico" maxWidth={275} />
       <strong>Figura 3</strong>
 
       <p>

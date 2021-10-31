@@ -7,6 +7,14 @@ export const Container = styled.div`
   width: 100%;
   max-width: 250px;
   margin-right: 20px;
+  position: relative;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mediumWidth}) {
+    background: ${({ theme }) => theme.colors.primary3};
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    max-width: 200px;
+  }
 `;
 
 export const Content = styled.div`
@@ -44,5 +52,51 @@ export const ButtonBack = styled.button`
   span {
     font-weight: bold;
     margin-left: 10px;
+  }
+`;
+
+export const ShowNavbar = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 60px;
+  margin-right: 20px;
+  background: ${({ theme }) => theme.colors.primary3};
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: ${({ theme }) => theme.colors.primary4};
+    border: none;
+  }
+`;
+
+export const ButtonHideNavbar = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  border-radius: 50px;
+  background: ${({ theme }) => theme.colors.primary4};
+  border: none;
+  margin: auto 15px 30px;
+
+  strong {
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.mediumWidth}) {
+    display: none;
   }
 `;

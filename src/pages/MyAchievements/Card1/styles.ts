@@ -34,6 +34,7 @@ export const Level = styled.div`
       width: 90%;
       background-color: ${({ theme }) => theme.colors.primary3};
       border-radius: 50px;
+      position: relative;
 
       div {
         display: flex;

@@ -8,6 +8,10 @@ export const Content = styled.div`
   padding: 30px;
   width: 100%;
   min-height: 400px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mediumWidth}) {
+    padding: 15px;
+  }
 `;
 
 export const NavItem = styled.div`
@@ -23,6 +27,11 @@ export const NavItem = styled.div`
 
   & + div {
     margin-top: 5px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mediumWidth}) {
+    flex-direction: column;
+    align-items: flex-start;
   }
 `;
 
