@@ -23,19 +23,29 @@ export const Content = styled.div`
 
 export const ButtonLink = styled(Link)`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  font-weight: bold;
-  font-size: 24px;
+
   text-decoration: none;
   background: #fff;
   color: ${({ theme }) => theme.colors.primary3};
 
   :hover {
     border: 2px solid ${({ theme }) => theme.colors.primary3};
+  }
+
+  img {
+    height: 130px;
+  }
+
+  strong {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
   }
 `;
