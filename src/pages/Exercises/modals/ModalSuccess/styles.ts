@@ -9,6 +9,19 @@ const animateLevel = keyframes`
   }
 `;
 
+const animateImage = keyframes`
+  from {
+    transform: scale(0.1)
+  }
+  to {
+    transform: scale(1)
+  }
+`;
+
+export const Image = styled.img`
+  animation: ${animateImage} 1s linear normal;
+`;
+
 export const Level = styled.div`
   display: flex;
   align-items: center;

@@ -62,9 +62,14 @@ export const Emblem = styled.div<EmblemProps>`
     transition: opacity 0.4s;
   }
 
-  &:hover div {
-    opacity: 1;
-    visibility: visible;
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s;
+
+    div {
+      opacity: 1;
+      visibility: visible;
+    }
   }
 `;
 

@@ -6,10 +6,12 @@ import { Modal as ModalProps } from '../../types/modal';
 
 import Default from '../_Default';
 
+import { Image } from './styles';
+
 const ModalError: React.FC<ModalProps> = ({ ...rest }) => {
   return (
     <Default {...rest}>
-      <img src={Img} alt="icone de estrelas" />
+      <Image src={Img} alt="icone de estrelas" />
 
       <h1>Não foi dessa vez!</h1>
 

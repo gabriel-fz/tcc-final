@@ -48,4 +48,11 @@ export const ButtonReload = styled.button`
     font-weight: bold;
     margin-left: 5px;
   }
+
+  &:hover {
+    svg {
+      transform: rotate(360deg);
+      transition: transform 1s;
+    }
+  }
 `;

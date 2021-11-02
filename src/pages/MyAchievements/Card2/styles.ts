@@ -19,6 +19,10 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
   }
+
+  p {
+    text-align: center;
+  }
 `;
 
 export const Day = styled.div<DayProps>`

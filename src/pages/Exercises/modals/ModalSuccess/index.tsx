@@ -5,12 +5,12 @@ import Img from '../../../../assets/estrelas.svg';
 import { Modal as ModalProps } from '../../types/modal';
 
 import Default from '../_Default';
-import { Level } from './styles';
+import { Level, Image } from './styles';
 
 const ModalSuccess: React.FC<ModalProps> = ({ ...rest }) => {
   return (
     <Default {...rest}>
-      <img src={Img} alt="icone de estrelas" />
+      <Image src={Img} alt="icone de estrelas" />
 
       <h1>Parabéns!</h1>
 

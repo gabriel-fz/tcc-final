@@ -13,6 +13,11 @@ export const NavItem = styled.button<NavItemProps>`
   & + button {
     margin-top: 10px;
   }
+
+  &:hover {
+    transform: translateX(10px);
+    transition: transform 0.4s;
+  }
 `;
 
 export const Content = styled.div`
