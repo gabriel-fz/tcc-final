@@ -51,7 +51,7 @@ export const ButtonReload = styled.button`
 
   &:hover {
     svg {
-      transform: rotate(360deg);
+      transform: rotate(-360deg);
       transition: transform 1s;
     }
   }

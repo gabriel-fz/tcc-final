@@ -54,3 +54,8 @@ export const ButtonLinkAlternative = styled(Link)`
   padding: 0 15px;
   border: 2px solid ${({ theme }) => theme.colors.primary3};
 `;
+
+export const NavDescription = styled.p`
+  color: ${({ theme }) => theme.colors.gray};
+  text-align: center;
+`;

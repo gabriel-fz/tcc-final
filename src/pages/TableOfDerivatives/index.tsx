@@ -8,12 +8,22 @@ import Img4 from '../../assets/derivada4.png';
 import NavbarVertical from '../../components/NavbarVertical';
 import ContainerDefault from '../../components/ContainerDefault';
 
-import { Content, ButtonLink, ButtonLinkAlternative } from './styles';
+import {
+  Content,
+  ButtonLink,
+  ButtonLinkAlternative,
+  NavDescription,
+} from './styles';
 
 const TableOfDerivatives: React.FC = () => {
   return (
     <ContainerDefault>
-      <NavbarVertical title="Tabela de derivadas" />
+      <NavbarVertical title="Tabela de derivadas">
+        <NavDescription>
+          Selecione uma fórumla para ver um exemplo de utilização e seu
+          respectivo gráfico interativo
+        </NavDescription>
+      </NavbarVertical>
 
       <Content>
         <ButtonLink to="/derivada-1">
